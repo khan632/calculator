@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: none;
+}
+
+body {
+  background-color: #dff9fb;
+  display: grid;
+  place-content: center;
+  font-family: 'Martel Sans', sans-serif;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+.container {
+  height: 80vh;
+  width: 50vh;
+  background-image: linear-gradient(to bottom right, #b06ab3, #4568dc);
+  /* border-radius: 1rem; */
+  padding: 1rem;
+  /* box-shadow: 7px 10px 20px 0px; */
+}

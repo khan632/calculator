@@ -1,0 +1,37 @@
+.wrapper {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.ResultScreen {
+    grid-column: 1/-1;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 3rem;
+    overflow: hidden;
+}
+
+.btn {
+    display: grid;
+    place-content: center;
+    background-color: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.light-white {
+    background-color: rgba(222, 217, 217, 0.405);
+    /* border: 2px solid #b06ab3; */
+}
+
+.zero {
+    grid-column: 1 / span 2;
+}
+
+.green {
+    background-color: #7ed6df;
+}

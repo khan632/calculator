@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
-
-
+import "./screen.css"
 
 const Screen = () => {
     const [prevState, setPrevState] = useState("");
@@ -44,7 +43,7 @@ const Screen = () => {
         <div className="btn" onClick={num}>7</div>
         <div className="btn" onClick={num}>8</div>
         <div className="btn" onClick={num}>9</div>
-        <div className="btn light-white" onClick={OperatorType}>×</div>
+        <div className="btn light-white" onClick={OperatorType}>*</div>
         <div className="btn" onClick={num}>4</div>
         <div className="btn" onClick={num}>5</div>
         <div className="btn" onClick={num}>6</div>
