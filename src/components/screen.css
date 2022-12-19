@@ -9,7 +9,7 @@
 .ResultScreen {
     grid-column: 1/-1;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 0.5rem;
     font-size: 3rem;
     overflow: hidden;
@@ -30,6 +30,9 @@
 
 .zero {
     grid-column: 1 / span 2;
+    place-content: unset;
+    align-items: center;
+    padding-left: 2.5rem;
 }
 
 .green {
